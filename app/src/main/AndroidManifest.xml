@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android2">
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -16,10 +17,15 @@
             android:theme="@style/Theme.Android2.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Add SecondActivity here -->
+        <activity
+            android:name=".SecondActivity"
+            android:exported="true"
+            android:label="Second Activity" />
     </application>
 
 </manifest>
